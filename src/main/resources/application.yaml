@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: 2235
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db
+  liquibase:
+    change-log: classpath:liquibase/master.xml
